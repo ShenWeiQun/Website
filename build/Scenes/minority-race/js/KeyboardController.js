@@ -16,13 +16,13 @@ var KeyboardController = (function () {
     }
     KeyboardController.prototype.onKeyDown = function (evt) {
         switch (evt.keyCode) {
-            case 90:
+            case 87:
                 this.isThrottlePressed = true;
                 break;
             case 83:
                 this.isBrakePressed = true;
                 break;
-            case 81:
+            case 65:
                 this.isSteerLeftPressed = true;
                 break;
             case 68:
@@ -38,13 +38,13 @@ var KeyboardController = (function () {
     };
     KeyboardController.prototype.onKeyUp = function (evt) {
         switch (evt.keyCode) {
-            case 90:
+            case 87:
                 this.isThrottlePressed = false;
                 break;
             case 83:
                 this.isBrakePressed = false;
                 break;
-            case 81:
+            case 65:
                 this.isSteerLeftPressed = false;
                 break;
             case 68:
