@@ -65,6 +65,9 @@
     <link rel="stylesheet" href="/assets/styles/styles.css" />
     <link rel="stylesheet" href="/assets/styles/mediaQueries.css" />
     <link rel="stylesheet" href="/assets/styles/pressRelease.css" />
+    <link rel="stylesheet" href="/assets/styles/viewer.css" />
+    <link rel="stylesheet" href="/assets/styles/viewerAndTextBlock.css" />
+    <link rel="stylesheet" href="/assets/styles/code.css" />
     <link rel="author" href="humans.txt" />
     <!-- Google tag (gtag.js) -->
     <script
@@ -114,12 +117,12 @@
             <div class="menu">
               <div class="header-ul-wrapper">
                 <ul>
-                     
-                  </li>
-
+                    
                   <li class="FEATURE DEMOS user-select">
-                    <a class="FEATURE DEMOS" href="/featureDemos">FEATURE DEMOS</a>
-                          
+                    <a class="FEATURE DEMOS" href="/featureDemos/"
+                      >FEATURE DEMOS</a
+                    >
+                         
                   </li>
 
                   <li class="TOOLS user-select">
@@ -127,17 +130,17 @@
                   </li>
 
                   <li class="COMMUNITY user-select">
-                    <a class="COMMUNITY">COMMUNITY</a>       
-                  </li>
-
+                    <a class="COMMUNITY">COMMUNITY</a>      
                   <li class="PARTNERS user-select">
-                    <a class="PARTNERS" href="/partners">PARTNERS</a>
-                          
-                  </li>
-
+                    <a class="PARTNERS" href="/partners/"
+                      >PARTNERS</a
+                    >
+                        
                   <li class="TESTIMONIALS user-select">
-                    <a class="TESTIMONIALS" href="/testimonials">TESTIMONIALS</a>
-                          
+                    <a class="TESTIMONIALS" href="/testimonials/"
+                      >TESTIMONIALS</a
+                    >
+                         
                   </li>
 
                   <li class="INDUSTRIES user-select">
@@ -145,24 +148,19 @@
                   </li>
 
                   <li class="BABYLON NATIVE user-select">
-                    <a class="BABYLON NATIVE">BABYLON NATIVE</a>       
+                    <a class="BABYLON NATIVE">BABYLON NATIVE</a>      
+                  <li class="VIEWER user-select">
+                    <a class="VIEWER" href="/viewer/"
+                      >VIEWER</a
+                    >
+                         
                   </li>
 
                   <li class="LEARN user-select">
-                    <a class="LEARN">LEARN</a>       
-                  </li>
-
+                    <a class="LEARN">LEARN</a>      
                   <li class="SPECIFICATIONS user-select">
-                    <a class="SPECIFICATIONS" href="/specifications">SPECIFICATIONS</a>
-                         
-                  <li class="RELEASE NOTES user-select">
-                    <a class="RELEASE NOTES" href="https://doc.babylonjs.com/whats-new"
-                      >RELEASE NOTES</a
-                    >
-                        
-                  <li class="GET user-select">
-                    <a class="GET" href="https://doc.babylonjs.com/setup/frameworkPackages/frameworkVers"
-                      >GET</a
+                    <a class="SPECIFICATIONS" href="/specifications/"
+                      >SPECIFICATIONS</a
                     >
                       
                   </li>
@@ -182,6 +180,18 @@
   
                   <li class="user-select">
                     <a href="https://nme.babylonjs.com/" target="_blank">NODE MATERIAL EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://nge.babylonjs.com/" target="_blank">NODE GEOMETRY EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://sfe.babylonjs.com/" target="_blank">SMART FILTER EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://viewerconfig.babylonjs.com/" target="_blank">VIEWER CONFIGURATOR</a>
                   </li>
   
                   <li class="user-select">
@@ -221,6 +231,10 @@
                   </li>
   
                   <li class="user-select">
+                    <a href="/creation/" target="">CREATION AND AUTHORING</a>
+                  </li>
+  
+                  <li class="user-select">
                     <a href="/digitalTwinIot/" target="">DIGITAL TWIN AND IOT</a>
                   </li>
   
@@ -241,7 +255,7 @@
                   </li>
  
                 </ul>
-                  
+                    
                 <ul class="LEARN hidden">
                    
                   <li class="user-select">
@@ -257,7 +271,7 @@
                   </li>
  
                 </ul>
-                       
+                   
               </div>
             </div>
           </div>
@@ -273,6 +287,19 @@
             <h3>Babylon&#x27;s open, vibrant community of developers, creators, and artists are constantly pushing the boundaries of what&#x27;s possible with web 3D.  Check out some of their latest amazing work!</h3>
             <div class="container-info">
                 <ul id="hexGrid">
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://wraps.wrapmate.com/" target="_blank">
+                                <img src="/community/assets/img/VW.jpg" alt="Volkswagen ID. Buzz Configurator" />
+                                <div class="desc">
+                                    <div class="hexDesc">Volkswagen ID. Buzz Configurator</div>
+                                    <div class="hexDesc author">by Wrapmate</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
                     <li class="hex">
                         <div class="hexIn">
                             <a class="hexLink" href="https://sidusheroes.com/" target="_blank">
@@ -366,11 +393,115 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="https://staterafps.herokuapp.com/" target="_blank">
-                                <img src="/community/assets/img/statera.jpg" alt="Statera" />
+                            <a class="hexLink" href="https://www.babylontoolkit.com/work/Verizon_ProjectMidnight.mp4" target="_blank">
+                                <img src="/community/assets/img/projectmidnight.jpg" alt="Verizon - Project Midnight" />
                                 <div class="desc">
-                                    <div class="hexDesc">Statera</div>
-                                    <div class="hexDesc author">by Statera</div>
+                                    <div class="hexDesc">Verizon - Project Midnight</div>
+                                    <div class="hexDesc author">MackeyK24</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://www.babylontoolkit.com/work/Verizon_TechWeekLobby.mp4" target="_blank">
+                                <img src="/community/assets/img/techweeklob.jpg" alt="Verizon - TechWeek Lobby" />
+                                <div class="desc">
+                                    <div class="hexDesc">Verizon - TechWeek Lobby</div>
+                                    <div class="hexDesc author">MackeyK24</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://www.babylontoolkit.com/work/Verizon_NetworkedPingPong.mp4" target="_blank">
+                                <img src="/community/assets/img/networkedping.jpg" alt="Verizon - Networked Ping Pong" />
+                                <div class="desc">
+                                    <div class="hexDesc">Verizon - Networked Ping Pong</div>
+                                    <div class="hexDesc author">MackeyK24</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://sky.corentin.cc" target="_blank">
+                                <img src="/community/assets/img/skyswap.jpg" alt="Skyswap Volley" />
+                                <div class="desc">
+                                    <div class="hexDesc">Skyswap Volley</div>
+                                    <div class="hexDesc author">by Games on Web Challenge</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://golden-legends.github.io/golden-legends/" target="_blank">
+                                <img src="/community/assets/img/goldenlegends.jpg" alt="Golden Legends" />
+                                <div class="desc">
+                                    <div class="hexDesc">Golden Legends</div>
+                                    <div class="hexDesc author">by Games on Web Challenge</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://doori4n.itch.io/primal-olympics" target="_blank">
+                                <img src="/community/assets/img/primalolympics.jpg" alt="Primal Olympics" />
+                                <div class="desc">
+                                    <div class="hexDesc">Primal Olympics</div>
+                                    <div class="hexDesc author">by Games on Web Challenge</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://tit0u4n.github.io/games-on-web-team-ficsit/" target="_blank">
+                                <img src="/community/assets/img/olympicodys.jpg" alt="Olympic Odyssey" />
+                                <div class="desc">
+                                    <div class="hexDesc">Olympic Odyssey</div>
+                                    <div class="hexDesc author">by Games on Web Challenge</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://dezarnaud-julian.github.io/" target="_blank">
+                                <img src="/community/assets/img/olympsavoy.jpg" alt="Olympic Savoyard" />
+                                <div class="desc">
+                                    <div class="hexDesc">Olympic Savoyard</div>
+                                    <div class="hexDesc author">by Games on Web Challenge</div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://louisvraie.github.io/flameRunner/" target="_blank">
+                                <img src="/community/assets/img/flamerun.jpg" alt="Flame Runner" />
+                                <div class="desc">
+                                    <div class="hexDesc">Flame Runner</div>
+                                    <div class="hexDesc author">by Games on Web Challenge</div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -432,7 +563,7 @@
                     <li class="hex">
                         <div class="hexIn">
                             <a class="hexLink" href="https://tuggowar.io/" target="_blank">
-                                <img src="/community/assets/img/tuggowar.jpg" alt="Tuggowar" />
+                                <img src="/community/assets/img/tuggowar.png" alt="Tuggowar" />
                                 <div class="desc">
                                     <div class="hexDesc">Tuggowar</div>
                                     <div class="hexDesc author">by Mise</div>
@@ -449,19 +580,6 @@
                                 <div class="desc">
                                     <div class="hexDesc">Morterra - Survival Sandbox</div>
                                     <div class="hexDesc author">by Morterra.io</div>
-                                </div>
-                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
-                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="https://3d.fundyforce.ca/" target="_blank">
-                                <img src="/community/assets/img/force.jpg" alt="FORCE Map" />
-                                <div class="desc">
-                                    <div class="hexDesc">FORCE Map</div>
-                                    <div class="hexDesc author">by 3D Wave Design</div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -488,19 +606,6 @@
                                 <div class="desc">
                                     <div class="hexDesc">Virtual Dive</div>
                                     <div class="hexDesc author">by Brunobg</div>
-                                </div>
-                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
-                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="https://play.enter-the-sphere.com/?id&#x3D;test_pepe&amp;bot&#x3D;bot_level1&amp;preload&#x3D;pepe_3.glb,athena_4.glb,background.glb" target="_blank">
-                                <img src="/community/assets/img/enterTheSphere.jpg" alt="Enter The Sphere" />
-                                <div class="desc">
-                                    <div class="hexDesc">Enter The Sphere</div>
-                                    <div class="hexDesc author">by Enter The Sphere</div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -574,24 +679,11 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="https://www.mercedes-benz.com/en/eq-formulae/we-drive-the-city/mercedes-eq-speedboard-game/" target="_blank">
+                            <a class="hexLink" href="https://www.mercedes-benz.com/storage/formula-e/2021-eq-house-digital-showroom/speedboard/20211129-v2.html" target="_blank">
                                 <img src="/community/assets/img/mercedes.jpg" alt="Mercedes Speedboard" />
                                 <div class="desc">
                                     <div class="hexDesc">Mercedes Speedboard</div>
                                     <div class="hexDesc author">by Robin_McLaut</div>
-                                </div>
-                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
-                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="https://guitarsim.com/" target="_blank">
-                                <img src="/community/assets/img/guitarsim.jpg" alt="Guitar Sim" />
-                                <div class="desc">
-                                    <div class="hexDesc">Guitar Sim</div>
-                                    <div class="hexDesc author">by jonarnold</div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -691,11 +783,11 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="http://mrfarokh.ir/en.html#" target="_blank">
+                            <a class="hexLink" href="https://holyshrine3d.com/" target="_blank">
                                 <img src="/community/assets/img/imamRezaShrine.jpg" alt="Imam Reza Shrine" />
                                 <div class="desc">
                                     <div class="hexDesc">Imam Reza Shrine</div>
-                                    <div class="hexDesc author">by sebodeweb</div>
+                                    <div class="hexDesc author">by Mohammad Ali Farokh</div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -782,32 +874,6 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="https://virtualexperience.seat.es/" target="_blank">
-                                <img src="../community/assets/img/seatCarCustomizer.jpg" alt="SEAT" />
-                                <div class="desc">
-                                    <div class="hexDesc">SEAT</div>
-                                    <div class="hexDesc author">by Juanma</div>
-                                </div>
-                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
-                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="https://artemacorp.com/builder" target="_blank">
-                                <img src="../community/assets/img/artema.jpg" alt="Artema Mouse" />
-                                <div class="desc">
-                                    <div class="hexDesc">Artema Mouse</div>
-                                    <div class="hexDesc author">by Mario_Sanchez, brianzinn</div>
-                                </div>
-                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
-                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hex">
-                        <div class="hexIn">
                             <a class="hexLink" href="https://nimadez.github.io/voxel-builder/" target="_blank">
                                 <img src="../community/assets/img/voxelBuilder.jpg" alt="Voxel Builder" />
                                 <div class="desc">
@@ -825,20 +891,7 @@
                                 <img src="../community/assets/img/motorcycleShowroom.jpg" alt="Motorcycle Showroom" />
                                 <div class="desc">
                                     <div class="hexDesc">Motorcycle Showroom</div>
-                                    <div class="hexDesc author">by sebodeweb</div>
-                                </div>
-                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
-                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="https://www.rolesrulesrewards.com/honda-civic-utc.html?play-auto" target="_blank">
-                                <img src="../community/assets/img/civic.jpg" alt="Honda PBR Sketch" />
-                                <div class="desc">
-                                    <div class="hexDesc">Honda PBR Sketch</div>
-                                    <div class="hexDesc author">by rdurnin</div>
+                                    <div class="hexDesc author">by Mohammad Ali Farokh</div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -2056,7 +2109,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/GlowingEspilit" target="_blank">
+                            <a class="hexLink" href="/Demos/GlowingEspilit/" target="_blank">
                                 <img src="/community/assets/img/glowingespilit.jpg" alt="Glowing Espilit" />
                                 <div class="desc">
                                     <div class="hexDesc">Glowing Espilit</div>
@@ -2732,7 +2785,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/ActionBuilder" target="_blank">
+                            <a class="hexLink" href="/Demos/ActionBuilder/" target="_blank">
                                 <img src="/community/assets/img/absmall.jpg" alt="ACTION BUILDER" />
                                 <div class="desc">
                                     <div class="hexDesc">ACTION BUILDER</div>
@@ -2771,7 +2824,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/Retail" target="_blank">
+                            <a class="hexLink" href="/Demos/Retail/" target="_blank">
                                 <img src="/community/assets/img/retail.jpg" alt="RETAIL" />
                                 <div class="desc">
                                     <div class="hexDesc">RETAIL</div>
@@ -2784,7 +2837,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/V8" target="_blank">
+                            <a class="hexLink" href="/Demos/V8/" target="_blank">
                                 <img src="/community/assets/img/v8small.jpg" alt="V8 ENGINE" />
                                 <div class="desc">
                                     <div class="hexDesc">V8 ENGINE</div>
@@ -2797,7 +2850,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/Train" target="_blank">
+                            <a class="hexLink" href="/Demos/Train/" target="_blank">
                                 <img src="/community/assets/img/Train.jpg" alt="TRAIN" />
                                 <div class="desc">
                                     <div class="hexDesc">TRAIN</div>
@@ -2823,7 +2876,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/HillValley" target="_blank">
+                            <a class="hexLink" href="/Demos/HillValley/" target="_blank">
                                 <img src="/community/assets/img/hill2.jpg" alt="Hill Valley" />
                                 <div class="desc">
                                     <div class="hexDesc">Hill Valley</div>
@@ -2862,7 +2915,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/Heart" target="_blank">
+                            <a class="hexLink" href="/Demos/Heart/" target="_blank">
                                 <img src="/community/assets/img/Heart.jpg" alt="HEART" />
                                 <div class="desc">
                                     <div class="hexDesc">HEART</div>
@@ -2875,7 +2928,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/Espilit" target="_blank">
+                            <a class="hexLink" href="/Demos/Espilit/" target="_blank">
                                 <img src="/community/assets/img/espilit.jpg" alt="ESPILIT" />
                                 <div class="desc">
                                     <div class="hexDesc">ESPILIT</div>
@@ -2888,7 +2941,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/WCafe" target="_blank">
+                            <a class="hexLink" href="/Demos/WCafe/" target="_blank">
                                 <img src="/community/assets/img/wcafe.jpg" alt="WINDOWS CAFE" />
                                 <div class="desc">
                                     <div class="hexDesc">WINDOWS CAFE</div>
@@ -2914,7 +2967,7 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="/Demos/TheCar" target="_blank">
+                            <a class="hexLink" href="/Demos/TheCar/" target="_blank">
                                 <img src="/community/assets/img/TheCar.jpg" alt="THE CAR" />
                                 <div class="desc">
                                     <div class="hexDesc">THE CAR</div>
@@ -3196,5 +3249,6 @@
     <script src="/assets/js/animation.js"></script>
     <script src="/assets/js/scripts.js"></script>
     <script src="/assets/js/pullRefresh.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@babylonjs/viewer@8.0.0/dist/babylon-viewer.esm.min.js"></script>
   </body>
 </html>

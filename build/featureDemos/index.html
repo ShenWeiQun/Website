@@ -65,6 +65,9 @@
     <link rel="stylesheet" href="/assets/styles/styles.css" />
     <link rel="stylesheet" href="/assets/styles/mediaQueries.css" />
     <link rel="stylesheet" href="/assets/styles/pressRelease.css" />
+    <link rel="stylesheet" href="/assets/styles/viewer.css" />
+    <link rel="stylesheet" href="/assets/styles/viewerAndTextBlock.css" />
+    <link rel="stylesheet" href="/assets/styles/code.css" />
     <link rel="author" href="humans.txt" />
     <!-- Google tag (gtag.js) -->
     <script
@@ -114,12 +117,12 @@
             <div class="menu">
               <div class="header-ul-wrapper">
                 <ul>
-                     
-                  </li>
-
+                    
                   <li class="FEATURE DEMOS user-select">
-                    <a class="FEATURE DEMOS" href="/featureDemos">FEATURE DEMOS</a>
-                          
+                    <a class="FEATURE DEMOS" href="/featureDemos/"
+                      >FEATURE DEMOS</a
+                    >
+                         
                   </li>
 
                   <li class="TOOLS user-select">
@@ -127,17 +130,17 @@
                   </li>
 
                   <li class="COMMUNITY user-select">
-                    <a class="COMMUNITY">COMMUNITY</a>       
-                  </li>
-
+                    <a class="COMMUNITY">COMMUNITY</a>      
                   <li class="PARTNERS user-select">
-                    <a class="PARTNERS" href="/partners">PARTNERS</a>
-                          
-                  </li>
-
+                    <a class="PARTNERS" href="/partners/"
+                      >PARTNERS</a
+                    >
+                        
                   <li class="TESTIMONIALS user-select">
-                    <a class="TESTIMONIALS" href="/testimonials">TESTIMONIALS</a>
-                          
+                    <a class="TESTIMONIALS" href="/testimonials/"
+                      >TESTIMONIALS</a
+                    >
+                         
                   </li>
 
                   <li class="INDUSTRIES user-select">
@@ -145,24 +148,19 @@
                   </li>
 
                   <li class="BABYLON NATIVE user-select">
-                    <a class="BABYLON NATIVE">BABYLON NATIVE</a>       
+                    <a class="BABYLON NATIVE">BABYLON NATIVE</a>      
+                  <li class="VIEWER user-select">
+                    <a class="VIEWER" href="/viewer/"
+                      >VIEWER</a
+                    >
+                         
                   </li>
 
                   <li class="LEARN user-select">
-                    <a class="LEARN">LEARN</a>       
-                  </li>
-
+                    <a class="LEARN">LEARN</a>      
                   <li class="SPECIFICATIONS user-select">
-                    <a class="SPECIFICATIONS" href="/specifications">SPECIFICATIONS</a>
-                         
-                  <li class="RELEASE NOTES user-select">
-                    <a class="RELEASE NOTES" href="https://doc.babylonjs.com/whats-new"
-                      >RELEASE NOTES</a
-                    >
-                        
-                  <li class="GET user-select">
-                    <a class="GET" href="https://doc.babylonjs.com/setup/frameworkPackages/frameworkVers"
-                      >GET</a
+                    <a class="SPECIFICATIONS" href="/specifications/"
+                      >SPECIFICATIONS</a
                     >
                       
                   </li>
@@ -182,6 +180,18 @@
   
                   <li class="user-select">
                     <a href="https://nme.babylonjs.com/" target="_blank">NODE MATERIAL EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://nge.babylonjs.com/" target="_blank">NODE GEOMETRY EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://sfe.babylonjs.com/" target="_blank">SMART FILTER EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://viewerconfig.babylonjs.com/" target="_blank">VIEWER CONFIGURATOR</a>
                   </li>
   
                   <li class="user-select">
@@ -221,6 +231,10 @@
                   </li>
   
                   <li class="user-select">
+                    <a href="/creation/" target="">CREATION AND AUTHORING</a>
+                  </li>
+  
+                  <li class="user-select">
                     <a href="/digitalTwinIot/" target="">DIGITAL TWIN AND IOT</a>
                   </li>
   
@@ -241,7 +255,7 @@
                   </li>
  
                 </ul>
-                  
+                    
                 <ul class="LEARN hidden">
                    
                   <li class="user-select">
@@ -257,7 +271,7 @@
                   </li>
  
                 </ul>
-                       
+                   
               </div>
             </div>
           </div>
@@ -275,11 +289,154 @@
                 <ul id="hexGrid">
                     <li class="hex">
                         <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon8IBLShadows" target="_blank">
+                                <img src="/featureDemos/assets/img/iblShadows.jpg" alt="WWII Leather Flight Helmet on a stand with shadows cast from environment image." />
+                                <div class="desc">
+                                    <div class="hexDesc">IBL Shadows</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon8AreaLightsDemo" target="_blank">
+                                <img src="/featureDemos/assets/img/areaLights.jpg" alt="A series of rectangular light panels of various heights casting light on a cluster of spheres, some reflective and others matte, and reflecting on the floor that has a checkerboard of reflective and matte squares." />
+                                <div class="desc">
+                                    <div class="hexDesc">Area Lights</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon8AudioEnginev2Demo" target="_blank">
+                                <img src="/featureDemos/assets/img/audioEngineV2.jpg" alt="A series of orange buttons, with one selected in green above a digital audio levels display showing green stacked lights in several columns, with the tallest of them transitioning to yellow and red lights." />
+                                <div class="desc">
+                                    <div class="hexDesc">Audio Engine V2</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon8gsplatImrovementsDemo" target="_blank">
+                                <img src="/featureDemos/assets/img/spzGaussianSplat.jpg" alt="A tree trunk with three racoons carved into it captured in 3D as a Gaussial Splat." />
+                                <div class="desc">
+                                    <div class="hexDesc">SPZ Loading</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon8havokCCDemo" target="_blank">
+                                <img src="/featureDemos/assets/img/havokCharacterController.jpg" alt="A 3D pill mesh standing on a spiral staircase in a room full of physics obstacles representing a character controller." />
+                                <div class="desc">
+                                    <div class="hexDesc">Havok Character Controller</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon8booleanDemo" target="_blank">
+                                <img src="/featureDemos/assets/img/geometricBooleans.jpg" alt="A series of shapes in three rows. In each, there are a cube and a sphere showing a different operation - add on top, intersect in the middle, and subtract on the bottom - with the resulting mesh when combining the two shapes." />
+                                <div class="desc">
+                                    <div class="hexDesc">Geometric Booleans</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon8gltfdemo" target="_blank">
+                                <img src="/featureDemos/assets/img/diffuseTransmission.jpg" alt="A houseplant in a clay pot with two fireflies circling the leaves. When the fireflies pass behind the leaves, a glow from their light can be seen transmitting though the diffuse color of the leaves." />
+                                <div class="desc">
+                                    <div class="hexDesc">Diffuse Transmission</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://playground.babylonjs.com/#18WTCK" target="_blank">
+                                <img src="/featureDemos/assets/img/nodeGeometryCemetery.jpg" alt="Low-Poly Cemetery" />
+                                <div class="desc">
+                                    <div class="hexDesc">Node Geometry</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon7GIDemo" target="_blank">
+                                <img src="/featureDemos/assets/img/globalIllumination.jpg" alt="Global Illumination Demo" />
+                                <div class="desc">
+                                    <div class="hexDesc">Global Illumination</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon7GSplatDemo" target="_blank">
+                                <img src="/featureDemos/assets/img/gaussianSplat.jpg" alt="Gaussian Splat Demo" />
+                                <div class="desc">
+                                    <div class="hexDesc">Gaussian Splat</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://aka.ms/babylon7RagdollDemo" target="_blank">
+                                <img src="/featureDemos/assets/img/ragdollDemo.jpg" alt="Ragdoll Demo" />
+                                <div class="desc">
+                                    <div class="hexDesc">Ragdoll Physics</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
                             <a class="hexLink" href="https://theplayroom.babylonjs.com" target="_blank">
                                 <img src="/featureDemos/assets/img/playroom.jpg" alt="Pirate Fort" />
                                 <div class="desc">
                                     <div class="hexDesc">The Playroom</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -292,7 +449,7 @@
                                 <img src="/community/assets/img/pirateFort.jpg" alt="Pirate Fort" />
                                 <div class="desc">
                                     <div class="hexDesc">Pirate Fort</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -305,7 +462,7 @@
                                 <img src="/community/assets/img/productDemo.jpg" alt="Product Demo" />
                                 <div class="desc">
                                     <div class="hexDesc">Product Demo</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -314,11 +471,11 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="https://playground.babylonjs.com/#P1RZV0" target="_blank">
+                            <a class="hexLink" href="https://playground.babylonjs.com/#P1RZV0#1870" target="_blank">
                                 <img src="/community/assets/img/sodaBottle.jpg" alt="Soda Bottle" />
                                 <div class="desc">
                                     <div class="hexDesc">Soda Bottle</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -331,7 +488,7 @@
                                 <img src="/community/assets/img/spacePirates.jpg" alt="Space Pirates" />
                                 <div class="desc">
                                     <div class="hexDesc">Space Pirates</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -344,7 +501,7 @@
                                 <img src="/community/assets/img/webGPU.jpg" alt="WebGPU Compute Shader" />
                                 <div class="desc">
                                     <div class="hexDesc">WebGPU Compute Shader</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -357,7 +514,7 @@
                                 <img src="/community/assets/img/amber.jpg" alt="glTF Amber" />
                                 <div class="desc">
                                     <div class="hexDesc">glTF Amber</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -370,7 +527,7 @@
                                 <img src="/community/assets/img/shipHelm.jpg" alt="Underwater" />
                                 <div class="desc">
                                     <div class="hexDesc">Underwater</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -383,7 +540,7 @@
                                 <img src="/community/assets/img/marbletower.jpg" alt="Marble Tower" />
                                 <div class="desc">
                                     <div class="hexDesc">Marble Tower</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -396,7 +553,7 @@
                                 <img src="/community/assets/img/thePirate.jpg" alt="The Pirate" />
                                 <div class="desc">
                                     <div class="hexDesc">The Pirate</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -409,7 +566,7 @@
                                 <img src="/community/assets/img/trouble.jpg" alt="Trouble" />
                                 <div class="desc">
                                     <div class="hexDesc">Trouble</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -418,11 +575,11 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="https://playground.babylonjs.com/#0IRV8X#33" target="_blank">
+                            <a class="hexLink" href="https://playground.babylonjs.com/#0IRV8X#58" target="_blank">
                                 <img src="/community/assets/img/snowman.jpg" alt="Snowball Fight" />
                                 <div class="desc">
                                     <div class="hexDesc">Snowball Fight</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -435,7 +592,7 @@
                                 <img src="/community/assets/img/weWishYouAMerryChristmas.jpg" alt="The Bells" />
                                 <div class="desc">
                                     <div class="hexDesc">The Bells</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -444,11 +601,11 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="https://playground.babylonjs.com/#GVPILZ" target="_blank">
+                            <a class="hexLink" href="https://playground.babylonjs.com/#GVPILZ#15" target="_blank">
                                 <img src="/community/assets/img/grimGrinningTextures.jpg" alt="Haunted Busts" />
                                 <div class="desc">
                                     <div class="hexDesc">Haunted Busts</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -461,7 +618,7 @@
                                 <img src="/community/assets/img/hexes.jpg" alt="Hex Board Islands" />
                                 <div class="desc">
                                     <div class="hexDesc">Hex Board Islands</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -470,24 +627,11 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="https://www.babylonjs-playground.com/#I6V1ST" target="_blank">
+                            <a class="hexLink" href="https://www.babylonjs-playground.com/#I6V1ST#260" target="_blank">
                                 <img src="/community/assets/img/weapon.jpg" alt="Weapons" />
                                 <div class="desc">
                                     <div class="hexDesc">Weapons</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
-                                </div>
-                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
-                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="https://www.babylonjs-playground.com/#HA3E1B#24" target="_blank">
-                                <img src="/community/assets/img/musicVis.jpg" alt="Music Visualizer" />
-                                <div class="desc">
-                                    <div class="hexDesc">Music Visualizer</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -500,7 +644,7 @@
                                 <img src="/community/assets/img/octopus.jpg" alt="Octopus &amp; Ball" />
                                 <div class="desc">
                                     <div class="hexDesc">Octopus &amp; Ball</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -513,7 +657,7 @@
                                 <img src="/community/assets/img/hotspots.jpg" alt="Ecommerce Hotspots" />
                                 <div class="desc">
                                     <div class="hexDesc">Ecommerce Hotspots</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -526,7 +670,20 @@
                                 <img src="/community/assets/img/winter.jpg" alt="Snow Shader" />
                                 <div class="desc">
                                     <div class="hexDesc">Snow Shader</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://playground.babylonjs.com/#LE4PBJ#10" target="_blank">
+                                <img src="/featureDemos/assets/img/snowMans.jpg" alt="Snow Men" />
+                                <div class="desc">
+                                    <div class="hexDesc">Snow Men</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -539,7 +696,7 @@
                                 <img src="/community/assets/img/d20.jpg" alt="D20" />
                                 <div class="desc">
                                     <div class="hexDesc">D20</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -552,7 +709,7 @@
                                 <img src="/community/assets/img/sheen.jpg" alt="Sheen Demo" />
                                 <div class="desc">
                                     <div class="hexDesc">Sheen Demo</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -565,7 +722,20 @@
                                 <img src="/community/assets/img/clearCoat.jpg" alt="Clear Coat Demo" />
                                 <div class="desc">
                                     <div class="hexDesc">Clear Coat Demo</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
+                                </div>
+                                <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
+                                <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="https://playground.babylonjs.com/#HA3E1B#113" target="_blank">
+                                <img src="/community/assets/img/musicVis.jpg" alt="Music Visualizer Demo" />
+                                <div class="desc">
+                                    <div class="hexDesc">Music Visualizer Demo</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -578,7 +748,7 @@
                                 <img src="/community/assets/img/anisotropy.jpg" alt="Anisotropy Demo" />
                                 <div class="desc">
                                     <div class="hexDesc">Anisotropy Demo</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -587,11 +757,11 @@
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="https://www.babylonjs-playground.com/#MX2Z99#7" target="_blank">
+                            <a class="hexLink" href="https://www.babylonjs-playground.com/#MX2Z99#153" target="_blank">
                                 <img src="/community/assets/img/sun.jpg" alt="Particle Sun" />
                                 <div class="desc">
                                     <div class="hexDesc">Particle Sun</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -604,7 +774,7 @@
                                 <img src="/community/assets/img/glow.jpg" alt="NME Glow Layer" />
                                 <div class="desc">
                                     <div class="hexDesc">NME Glow Layer</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -617,7 +787,7 @@
                                 <img src="/community/assets/img/polarCoordinates.jpg" alt="Polar Coordinates" />
                                 <div class="desc">
                                     <div class="hexDesc">Polar Coordinates</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -630,7 +800,7 @@
                                 <img src="/community/assets/img/triplanarProjection.jpg" alt="Triplanar Projection" />
                                 <div class="desc">
                                     <div class="hexDesc">Triplanar Projection</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -643,7 +813,7 @@
                                 <img src="/community/assets/img/LUT.jpg" alt="LUT Demo" />
                                 <div class="desc">
                                     <div class="hexDesc">LUT Demo</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -656,7 +826,7 @@
                                 <img src="/community/assets/img/matrix.jpg" alt="The Matrix" />
                                 <div class="desc">
                                     <div class="hexDesc">The Matrix</div>
-                                    <div class="hexDesc author">by Babylon.js</div>
+                                    <div class="hexDesc author"></div>
                                 </div>
                                 <img src="/assets/img/hoverFrame.svg" class="hoverFrame" />
                                 <img src="/assets/img/defaultFrame.svg" class="defaultFrame" />
@@ -704,5 +874,6 @@
     <script src="/assets/js/animation.js"></script>
     <script src="/assets/js/scripts.js"></script>
     <script src="/assets/js/pullRefresh.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@babylonjs/viewer@8.0.0/dist/babylon-viewer.esm.min.js"></script>
   </body>
 </html>

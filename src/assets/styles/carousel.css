@@ -28,6 +28,10 @@
     height: 100%;
 }
 
+.carousel .img-fallback-carousel {
+    display: none;
+}
+
 .carousel .img-carousel {
     flex: 1 1;
     object-fit: cover;
@@ -50,6 +54,11 @@
     border-radius: 40px;
     display: flex;
     padding-right: 15px;
+}
+
+.carousel-navigate.assets {
+    top: 80px;
+    bottom: unset;
 }
 
 .carousel-navigate-item {

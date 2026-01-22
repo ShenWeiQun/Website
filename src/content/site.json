@@ -5,6 +5,7 @@
     "menu": [
         {
             "root": "featureDemos",
+            "menuUrl": "/featureDemos/",
             "visible": true
         },
         {
@@ -24,6 +25,21 @@
                 {
                     "menuTitle": "NODE MATERIAL EDITOR",
                     "menuUrl": "https://nme.babylonjs.com/",
+                    "target": "_blank"
+                },
+                {
+                    "menuTitle": "NODE GEOMETRY EDITOR",
+                    "menuUrl": "https://nge.babylonjs.com/",
+                    "target": "_blank"
+                },
+                {
+                    "menuTitle": "SMART FILTER EDITOR",
+                    "menuUrl": "https://sfe.babylonjs.com/",
+                    "target": "_blank"
+                },
+                {
+                    "menuTitle": "VIEWER CONFIGURATOR",
+                    "menuUrl": "https://viewerconfig.babylonjs.com/",
                     "target": "_blank"
                 },
                 {
@@ -60,11 +76,13 @@
         },
         {
             "root": "partners",
-            "visible": true
+            "visible": true,
+            "menuUrl": "/partners/"
         },
         {
             "root": "testimonials",
-            "visible": true
+            "visible": true,
+            "menuUrl": "/testimonials/"
         },
         {
             "root": "industries",
@@ -135,6 +153,11 @@
             ]
         },
         {
+            "root": "viewer",
+            "visible": true,
+            "menuUrl": "/viewer/"
+        },
+        {
             "root": "learn",
             "visible": true,
             "children": [
@@ -157,7 +180,8 @@
         },
         {
             "root": "specifications",
-            "visible": true
+            "visible": true,
+            "menuUrl": "/specifications/"
         },
         {
             "menuTitle": "RELEASE NOTES",

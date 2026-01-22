@@ -66,6 +66,9 @@
     <link rel="stylesheet" href="/assets/styles/styles.css" />
     <link rel="stylesheet" href="/assets/styles/mediaQueries.css" />
     <link rel="stylesheet" href="/assets/styles/pressRelease.css" />
+    <link rel="stylesheet" href="/assets/styles/viewer.css" />
+    <link rel="stylesheet" href="/assets/styles/viewerAndTextBlock.css" />
+    <link rel="stylesheet" href="/assets/styles/code.css" />
     <link rel="author" href="humans.txt" />
     <!-- Google tag (gtag.js) -->
     <script
@@ -115,12 +118,12 @@
             <div class="menu">
               <div class="header-ul-wrapper">
                 <ul>
-                     
-                  </li>
-
+                    
                   <li class="FEATURE DEMOS user-select">
-                    <a class="FEATURE DEMOS" href="/featureDemos">FEATURE DEMOS</a>
-                          
+                    <a class="FEATURE DEMOS" href="/featureDemos/"
+                      >FEATURE DEMOS</a
+                    >
+                         
                   </li>
 
                   <li class="TOOLS user-select">
@@ -128,17 +131,17 @@
                   </li>
 
                   <li class="COMMUNITY user-select">
-                    <a class="COMMUNITY">COMMUNITY</a>       
-                  </li>
-
+                    <a class="COMMUNITY">COMMUNITY</a>      
                   <li class="PARTNERS user-select">
-                    <a class="PARTNERS" href="/partners">PARTNERS</a>
-                          
-                  </li>
-
+                    <a class="PARTNERS" href="/partners/"
+                      >PARTNERS</a
+                    >
+                        
                   <li class="TESTIMONIALS user-select">
-                    <a class="TESTIMONIALS" href="/testimonials">TESTIMONIALS</a>
-                          
+                    <a class="TESTIMONIALS" href="/testimonials/"
+                      >TESTIMONIALS</a
+                    >
+                         
                   </li>
 
                   <li class="INDUSTRIES user-select">
@@ -146,24 +149,19 @@
                   </li>
 
                   <li class="BABYLON NATIVE user-select">
-                    <a class="BABYLON NATIVE">BABYLON NATIVE</a>       
+                    <a class="BABYLON NATIVE">BABYLON NATIVE</a>      
+                  <li class="VIEWER user-select">
+                    <a class="VIEWER" href="/viewer/"
+                      >VIEWER</a
+                    >
+                         
                   </li>
 
                   <li class="LEARN user-select">
-                    <a class="LEARN">LEARN</a>       
-                  </li>
-
+                    <a class="LEARN">LEARN</a>      
                   <li class="SPECIFICATIONS user-select">
-                    <a class="SPECIFICATIONS" href="/specifications">SPECIFICATIONS</a>
-                         
-                  <li class="RELEASE NOTES user-select">
-                    <a class="RELEASE NOTES" href="https://doc.babylonjs.com/whats-new"
-                      >RELEASE NOTES</a
-                    >
-                        
-                  <li class="GET user-select">
-                    <a class="GET" href="https://doc.babylonjs.com/setup/frameworkPackages/frameworkVers"
-                      >GET</a
+                    <a class="SPECIFICATIONS" href="/specifications/"
+                      >SPECIFICATIONS</a
                     >
                       
                   </li>
@@ -183,6 +181,18 @@
   
                   <li class="user-select">
                     <a href="https://nme.babylonjs.com/" target="_blank">NODE MATERIAL EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://nge.babylonjs.com/" target="_blank">NODE GEOMETRY EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://sfe.babylonjs.com/" target="_blank">SMART FILTER EDITOR</a>
+                  </li>
+  
+                  <li class="user-select">
+                    <a href="https://viewerconfig.babylonjs.com/" target="_blank">VIEWER CONFIGURATOR</a>
                   </li>
   
                   <li class="user-select">
@@ -222,6 +232,10 @@
                   </li>
   
                   <li class="user-select">
+                    <a href="/creation/" target="">CREATION AND AUTHORING</a>
+                  </li>
+  
+                  <li class="user-select">
                     <a href="/digitalTwinIot/" target="">DIGITAL TWIN AND IOT</a>
                   </li>
   
@@ -242,7 +256,7 @@
                   </li>
  
                 </ul>
-                  
+                    
                 <ul class="LEARN hidden">
                    
                   <li class="user-select">
@@ -258,7 +272,7 @@
                   </li>
  
                 </ul>
-                       
+                   
               </div>
             </div>
           </div>
@@ -268,36 +282,60 @@
 
     <div class="content-container">
        <div class="samples-carousel-block">
-    <div class="carousel" data-sample="">
-        <div class="img-holder">
-                <a href="https://www.lowes.com/l/about/virtual-room-designer" target="_blank">
-                    <img class="img-carousel" src='./assets/img/lowes_carousel.jpg'></video>
-                </a>
-        </div>
-        <div class="img-holder">
-                <a href="https://framevr.io/" target="_blank">
-                    <img class="img-carousel" src='./assets/img/frameVR_carousel.jpg'></video>
-                </a>
-        </div>
-        <div class="img-holder">
-                <a href="https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/mixed-reality-overview" target="_blank">
-                    <img class="img-carousel" src='./assets/img/powerapps_carousel.jpg'></video>
-                </a>
-        </div>
+  <div class="carousel" data-sample="">
+      
+    <div class="img-holder">
+      <a href="https://www.lowes.com/l/about/virtual-room-designer" target="_blank">
+        <img class="img-carousel" src="./assets/img/lowes_carousel.jpg" />
+      </a>
     </div>
-    <div class="carousel-navigate">
-        <img src="/assets/img/CarouselActive.svg" alt="" class="caret">
-        <div class="carousel-navigate-item" data-order="0">
-            <img src="/assets/img/CarouselBreadcrumb.svg" alt="">
-        </div>
-        <div class="carousel-navigate-item" data-order="1">
-            <img src="/assets/img/CarouselBreadcrumb.svg" alt="">
-        </div>
-        <div class="carousel-navigate-item" data-order="2">
-            <img src="/assets/img/CarouselBreadcrumb.svg" alt="">
-        </div>
+       
+    <div class="img-holder">
+      <a href="https://framevr.io/" target="_blank">
+        <img class="img-carousel" src="./assets/img/frameVR_carousel.jpg" />
+      </a>
     </div>
-</div>  <section class="image-and-text-block "
+       
+    <div class="img-holder">
+      <a href="https://docs.microsoft.com/en-us/power-apps/maker/canvas-apps/mixed-reality-overview" target="_blank">
+        <img class="img-carousel" src="./assets/img/powerapps_carousel.jpg" />
+      </a>
+    </div>
+     
+  </div>
+  <div class="carousel-navigate">
+    <img src="/assets/img/CarouselActive.svg" alt="" class="caret" />
+    <div class="carousel-navigate-item" data-order="0">
+      <img src="/assets/img/CarouselBreadcrumb.svg" alt="" />
+    </div>
+    <div class="carousel-navigate-item" data-order="1">
+      <img src="/assets/img/CarouselBreadcrumb.svg" alt="" />
+    </div>
+    <div class="carousel-navigate-item" data-order="2">
+      <img src="/assets/img/CarouselBreadcrumb.svg" alt="" />
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // iphone or chrome on iOS.
+    const isIphoneUserAgent = navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/CriOS/i);
+    if (!isIphoneUserAgent) {
+      return;
+    }
+    // replace all videos with fallback images
+    const videos = document.querySelectorAll(".carousel video");
+    videos.forEach((video) => {
+      video.style.display = "none";
+    });
+    // enable all fallback images
+    const fallbackImages = document.querySelectorAll(".img-fallback-carousel");
+    fallbackImages.forEach((img) => {
+      img.style.display = "block";
+    });
+  });
+</script>
+  <section class="image-and-text-block "
     style="background-color: #be2d3b;">
     <div class="inner-container" style="min-height:500px;padding-top:;padding-bottom:;">
         <div class="image-block">
@@ -422,5 +460,6 @@
     <script src="/assets/js/animation.js"></script>
     <script src="/assets/js/scripts.js"></script>
     <script src="/assets/js/pullRefresh.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@babylonjs/viewer@8.0.0/dist/babylon-viewer.esm.min.js"></script>
   </body>
 </html>

@@ -9,6 +9,24 @@
                 "desc": "Babylon's open, vibrant community of developers, creators, and artists are constantly pushing the boundaries of what's possible with web 3D.  Check out some of their latest amazing work!",
                 "items": [
                     {
+                        "desc": "Tuggowar",
+                        "author": "by Mise",
+                        "link": "https://store.steampowered.com/app/2870220/Tuggowar/?utm_source=bjscommunity",
+                        "img": {
+                            "url": "/community/assets/img/TuggowarSteam.png",
+                            "alt": "Tuggowar"
+                        }
+                    },
+                    {
+                        "desc": "Volkswagen ID. Buzz Configurator",
+                        "author": "by Wrapmate",
+                        "link": "https://wraps.wrapmate.com/",
+                        "img": {
+                            "url": "/community/assets/img/VW.jpg",
+                            "alt": "Volkswagen ID. Buzz Configurator"
+                        }
+                    },
+                    {
                         "desc": "Sidus Heroes",
                         "author": "by SidusHeroes",
                         "link": "https://sidusheroes.com/",
@@ -72,15 +90,6 @@
                         }
                     },
                     {
-                        "desc": "Statera",
-                        "author": "by Statera",
-                        "link": "https://staterafps.herokuapp.com/",
-                        "img": {
-                            "url": "/community/assets/img/statera.jpg",
-                            "alt": "Statera"
-                        }
-                    },
-                    {
                         "desc": "Verizon - Project Midnight",
                         "author": "MackeyK24",
                         "link": "https://www.babylontoolkit.com/work/Verizon_ProjectMidnight.mp4",
@@ -135,30 +144,12 @@
                         }
                     },
                     {
-                        "desc": "Athlete Simulator-VR",
-                        "author": "by Games on Web Challenge",
-                        "link": "https://tinyurl.com/3hbfr326",
-                        "img": {
-                            "url": "/community/assets/img/athletesim.jpg",
-                            "alt": "Athlete Simulator-VR"
-                        }
-                    },
-                    {
                         "desc": "Olympic Odyssey",
                         "author": "by Games on Web Challenge",
                         "link": "https://tit0u4n.github.io/games-on-web-team-ficsit/",
                         "img": {
                             "url": "/community/assets/img/olympicodys.jpg",
                             "alt": "Olympic Odyssey"
-                        }
-                    },
-                    {
-                        "desc": "Olympixel",
-                        "author": "by Games on Web Challenge",
-                        "link": "https://www.minuteanime.com/play/olympixel",
-                        "img": {
-                            "url": "/community/assets/img/olympixel.jpg",
-                            "alt": "Olympixel"
                         }
                     },
                     {
@@ -177,15 +168,6 @@
                         "img": {
                             "url": "/community/assets/img/flamerun.jpg",
                             "alt": "Flame Runner"
-                        }
-                    },
-                    {
-                        "desc": "Baguette Blast-VR",
-                        "author": "by Games on Web Challenge",
-                        "link": "https://baguette-blast.huesca.fr/",
-                        "img": {
-                            "url": "/community/assets/img/baguetteblast.jpg",
-                            "alt": "Baguette Blast-VR"
                         }
                     },
                     {
@@ -225,30 +207,12 @@
                         }
                     },
                     {
-                        "desc": "Tuggowar",
-                        "author": "by Mise",
-                        "link": "https://tuggowar.io/",
-                        "img": {
-                            "url": "/community/assets/img/tuggowar.png",
-                            "alt": "Tuggowar"
-                        }
-                    },
-                    {
                         "desc": "Morterra - Survival Sandbox",
                         "author": "by Morterra.io",
                         "link": "https://morterra.com",
                         "img": {
                             "url": "../community/assets/img/morterra.jpg",
                             "alt": "Morterra - Survival Sandbox"
-                        }
-                    },
-                    {
-                        "desc": "FORCE Map",
-                        "author": "by 3D Wave Design",
-                        "link": "https://3d.fundyforce.ca/",
-                        "img": {
-                            "url": "/community/assets/img/force.jpg",
-                            "alt": "FORCE Map"
                         }
                     },
                     {
@@ -267,15 +231,6 @@
                         "img": {
                             "url": "/community/assets/img/virtualDive.jpg",
                             "alt": "Virtual Dive"
-                        }
-                    },
-                    {
-                        "desc": "Enter The Sphere",
-                        "author": "by Enter The Sphere",
-                        "link": "https://play.enter-the-sphere.com/?id=test_pepe&bot=bot_level1&preload=pepe_3.glb,athena_4.glb,background.glb",
-                        "img": {
-                            "url": "/community/assets/img/enterTheSphere.jpg",
-                            "alt": "Enter The Sphere"
                         }
                     },
                     {
@@ -330,15 +285,6 @@
                         "img": {
                             "url": "/community/assets/img/mercedes.jpg",
                             "alt": "Mercedes Speedboard"
-                        }
-                    },
-                    {
-                        "desc": "Guitar Sim",
-                        "author": "by jonarnold",
-                        "link": "https://guitarsim.com/",
-                        "img": {
-                            "url": "/community/assets/img/guitarsim.jpg",
-                            "alt": "Guitar Sim"
                         }
                     },
                     {
@@ -468,15 +414,6 @@
                         }
                     },
                     {
-                        "desc": "SEAT",
-                        "author": "by Juanma",
-                        "link": "https://virtualexperience.seat.es/",
-                        "img": {
-                            "url": "../community/assets/img/seatCarCustomizer.jpg",
-                            "alt": "SEAT"
-                        }
-                    },
-                    {
                         "desc": "Voxel Builder",
                         "author": "by nima",
                         "link": "https://nimadez.github.io/voxel-builder/",
@@ -492,15 +429,6 @@
                         "img": {
                             "url": "../community/assets/img/motorcycleShowroom.jpg",
                             "alt": "Motorcycle Showroom"
-                        }
-                    },
-                    {
-                        "desc": "Honda PBR Sketch",
-                        "author": "by rdurnin",
-                        "link": "https://www.rolesrulesrewards.com/honda-civic-utc.html?play-auto",
-                        "img": {
-                            "url": "../community/assets/img/civic.jpg",
-                            "alt": "Honda PBR Sketch"
                         }
                     },
                     {
@@ -1343,7 +1271,7 @@
                     {
                         "desc": "Glowing Espilit",
                         "author": "by Michel Rousseau",
-                        "link": "/Demos/GlowingEspilit",
+                        "link": "/Demos/GlowingEspilit/",
                         "img": {
                             "url": "/community/assets/img/glowingespilit.jpg",
                             "alt": "Glowing Espilit"
@@ -1811,7 +1739,7 @@
                     {
                         "desc": "ACTION BUILDER",
                         "author": "by Michel Rousseau",
-                        "link": "/Demos/ActionBuilder",
+                        "link": "/Demos/ActionBuilder/",
                         "img": {
                             "url": "/community/assets/img/absmall.jpg",
                             "alt": "ACTION BUILDER"
@@ -1838,7 +1766,7 @@
                     {
                         "desc": "RETAIL",
                         "author": "by Michel Rousseau",
-                        "link": "/Demos/Retail",
+                        "link": "/Demos/Retail/",
                         "img": {
                             "url": "/community/assets/img/retail.jpg",
                             "alt": "RETAIL"
@@ -1847,7 +1775,7 @@
                     {
                         "desc": "V8 ENGINE",
                         "author": "by Michel Rousseau",
-                        "link": "/Demos/V8",
+                        "link": "/Demos/V8/",
                         "img": {
                             "url": "/community/assets/img/v8small.jpg",
                             "alt": "V8 ENGINE"
@@ -1856,7 +1784,7 @@
                     {
                         "desc": "TRAIN",
                         "author": "by Romuald ROUHIER",
-                        "link": "/Demos/Train",
+                        "link": "/Demos/Train/",
                         "img": {
                             "url": "/community/assets/img/Train.jpg",
                             "alt": "TRAIN"
@@ -1874,7 +1802,7 @@
                     {
                         "desc": "Hill Valley",
                         "author": "by Camille JOLY &amp; Michel ROUSSEAU",
-                        "link": "/Demos/HillValley",
+                        "link": "/Demos/HillValley/",
                         "img": {
                             "url": "/community/assets/img/hill2.jpg",
                             "alt": "Hill Valley"
@@ -1901,7 +1829,7 @@
                     {
                         "desc": "HEART",
                         "author": "by Michel Rousseau",
-                        "link": "/Demos/Heart",
+                        "link": "/Demos/Heart/",
                         "img": {
                             "url": "/community/assets/img/Heart.jpg",
                             "alt": "HEART"
@@ -1910,7 +1838,7 @@
                     {
                         "desc": "ESPILIT",
                         "author": "by Michel Rousseau",
-                        "link": "/Demos/Espilit",
+                        "link": "/Demos/Espilit/",
                         "img": {
                             "url": "/community/assets/img/espilit.jpg",
                             "alt": "ESPILIT"
@@ -1919,7 +1847,7 @@
                     {
                         "desc": "WINDOWS CAFE",
                         "author": "by Michel Rousseau",
-                        "link": "/Demos/WCafe",
+                        "link": "/Demos/WCafe/",
                         "img": {
                             "url": "/community/assets/img/wcafe.jpg",
                             "alt": "WINDOWS CAFE"
@@ -1937,7 +1865,7 @@
                     {
                         "desc": "THE CAR",
                         "author": "by Michel Rousseau",
-                        "link": "/Demos/TheCar",
+                        "link": "/Demos/TheCar/",
                         "img": {
                             "url": "/community/assets/img/TheCar.jpg",
                             "alt": "THE CAR"
